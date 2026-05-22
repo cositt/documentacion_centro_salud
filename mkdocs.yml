@@ -1,0 +1,79 @@
+site_name: Equilibrium · Documentación
+site_description: Sistema de gestión para Centro Residencial Equilibrium — Odoo 19.0
+site_author: Equilibrium
+site_url: https://cositt.github.io/web_documentacion_centrosalud/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - def_list
+
+extra:
+  generator: false
+
+nav:
+  - Inicio: index.md
+  - Módulos:
+    - "01 · Residentes": 01_cs_resident/guia.md
+    - "02 · Monedero": 02_cs_purse_pocket/guia.md
+    - "03 · Admisión": 03_cs_admission/guia.md
+    - "04 · Atención Médica": 04_cs_medical_care/guia.md
+    - "05 · CIMA Medicamentos": 05_cs_cima/guia.md
+    - "06 · Psicología": 06_cs_psychology/guia.md
+    - "07 · Monitoreo": 07_cs_monitoring/guia.md
+    - "08 · Formularios": 08_cs_patient_followup_forms/guia.md
+    - "09 · PIAI": 09_cs_piai/guia.md
+    - "10 · Documentos": 10_cs_documents/guia.md
+    - "11 · DNI OCR": 11_cs_dni_ocr/guia.md
+    - "12 · Inventario": 12_cs_residential_stock/guia.md
