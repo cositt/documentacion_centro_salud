@@ -41,6 +41,7 @@ cs_residential_stock ─ inventario por residencia/habitación
 | 10 | `cs_documents` | [Gestión de documentos clínicos](10_cs_documents/guia.md) | Todos |
 | 11 | `cs_dni_ocr` | [OCR de DNI en contactos](11_cs_dni_ocr/guia.md) | Admisión |
 | 12 | `cs_residential_stock` | [Inventario residencial](12_cs_residential_stock/guia.md) | Logística |
+| 13 | `cs_social_work` | [Trabajo Social](13_cs_social_work/guia.md) | Trabajadoras sociales |
 
 ---
 
