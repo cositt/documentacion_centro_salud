@@ -21,6 +21,7 @@ cs_admission ──────────────────────�
 cs_documents ─────── adjuntos a residente
 cs_dni_ocr ───────── OCR en contactos (pre-admisión)
 cs_residential_stock ─ inventario por residencia/habitación
+cs_floorplan ─────── plano interactivo por planta (arrastrar residentes)
 ```
 
 ---
@@ -42,6 +43,7 @@ cs_residential_stock ─ inventario por residencia/habitación
 | 11 | `cs_dni_ocr` | [OCR de DNI en contactos](11_cs_dni_ocr/guia.md) | Admisión |
 | 12 | `cs_residential_stock` | [Inventario residencial](12_cs_residential_stock/guia.md) | Logística |
 | 13 | `cs_social_work` | [Trabajo Social](13_cs_social_work/guia.md) | Trabajadoras sociales |
+| 14 | `cs_floorplan` | [Plano de Residencia](14_cs_floorplan/guia.md) | Todos / Editor de Layout |
 
 ---
 
